@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ud9js"
+    tools:context=".mainpage"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:context=".mainpage"
+        android:layout_alignParentLeft="true">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="157dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:background="#F4F6F7"
+            android:textStyle="bold"
+            android:text="CONVERT" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="109dp"
+            android:layout_height="41dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="14dp"
+            android:background="@android:drawable/btn_dropdown"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:spinnerMode="dropdown"
+            android:textSize="25dp"
+            />
+
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="97dp"
+            android:layout_height="41dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/editText2"
+            android:background="#F4F6F7"
+            android:fontFamily="sans-serif-medium"
+            android:text="NMi:"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="252dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button3"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/button3"
+            android:layout_marginTop="93dp"
+            android:clickable="false"
+            android:editable="false"
+            android:ems="10"
+            android:textColor="#F4F6F7"
+            android:textColorHint="#F4F6F7"
+            android:focusable="false"
+            android:hint="Nautical Miles"
+            android:inputType="none"
+            android:textIsSelectable="true"
+            tools:clickable="false" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/button3"
+            android:layout_alignTop="@+id/spinner1"
+            android:ems="10"
+            android:hint="Meter"
+            android:textColorHint="#F4F6F7"
+            android:textColor="#F4F6F7"
+            android:inputType="numberDecimal"
+            android:layout_alignLeft="@+id/button3" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="100dp"
+            android:layout_height="41dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/editText3"
+            android:background="#F4F6F7"
+            android:fontFamily="sans-serif-medium"
+            android:text="Mile:"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/button3"
+            android:layout_marginTop="150dp"
+            android:clickable="false"
+            android:editable="false"
+            android:ems="10"
+            android:focusable="false"
+            android:hint="Miles"
+            android:textColorHint="#F4F6F7"
+            android:textColor="#F4F6F7"
+            android:inputType="none"
+            android:textIsSelectable="true"
+            tools:clickable="false"
+            android:layout_alignLeft="@+id/button3" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="98dp"
+            android:layout_height="41dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/editText4"
+            android:background="#F4F6F7"
+            android:fontFamily="sans-serif-medium"
+            android:text="Yd:"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/button3"
+            android:layout_marginTop="208dp"
+            android:clickable="false"
+            android:editable="false"
+            android:ems="10"
+            android:textColorHint="#F4F6F7"
+            android:textColor="#F4F6F7"
+            android:focusable="false"
+            android:hint="Yard"
+            android:inputType="none"
+            android:textIsSelectable="true"
+            android:layout_alignLeft="@+id/button3" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="100dp"
+            android:layout_height="41dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/editText5"
+            android:background="#F4F6F7"
+            android:fontFamily="sans-serif-medium"
+            android:text="Ft:"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/button3"
+            android:layout_marginBottom="250dp"
+            android:clickable="false"
+            android:editable="false"
+            android:ems="10"
+            android:focusable="false"
+            android:hint="Feet"
+            android:inputType="none"
+            android:textColorHint="#F4F6F7"
+            android:textColor="#F4F6F7"
+            android:textIsSelectable="true"
+            android:layout_alignLeft="@+id/button3" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="98dp"
+            android:layout_height="41dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/editText6"
+            android:background="#F4F6F7"
+            android:fontFamily="sans-serif-medium"
+            android:text="In:"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/button3"
+            android:layout_marginBottom="190dp"
+            android:clickable="false"
+            android:editable="false"
+            android:ems="10"
+            android:focusable="false"
+            android:hint="Inch"
+            android:inputType="none"
+            android:textColorHint="#F4F6F7"
+            android:textColor="#F4F6F7"
+            android:textIsSelectable="true"
+            android:layout_alignLeft="@+id/button3" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="98dp"
+            android:layout_height="41dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/editText7"
+            android:background="#F4F6F7"
+            android:fontFamily="sans-serif-medium"
+            android:text="Sqft:"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/button3"
+            android:layout_marginBottom="127dp"
+            android:clickable="false"
+            android:editable="false"
+            android:ems="10"
+            android:focusable="false"
+            android:textColorHint="#F4F6F7"
+            android:textColor="#F4F6F7"
+            android:hint="Square Foot"
+            android:inputType="none"
+            android:textIsSelectable="true"
+            android:layout_alignLeft="@+id/button3" />
+
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="100dp"
+            android:layout_height="41dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="73dp"
+            android:background="#F4F6F7"
+            android:fontFamily="sans-serif-medium"
+            android:text="Mtr:"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/button3"
+            android:layout_alignTop="@+id/checkBox7"
+            android:clickable="false"
+            android:editable="false"
+            android:ems="10"
+            android:focusable="false"
+            android:hint="Meter"
+            android:inputType="none"
+            android:textColorHint="#F4F6F7"
+            android:textColor="#F4F6F7"
+            android:textIsSelectable="true"
+            android:layout_alignLeft="@+id/button3" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
